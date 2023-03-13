@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etTelefono" type="id" />
+    <item name="etDireccion" type="id" />
+    <item name="etApellido" type="id" />
+    <item name="etName" type="id" />
+    <item name="etDNI" type="id" />
+    <item name="btGuardar" type="id" />
+    <item name="btListado" type="id" />
+</resources>
