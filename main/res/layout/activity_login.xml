@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252525"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="70dp"
+        android:text="Inicie sesión"
+        android:textAlignment="center"
+        android:textColor="#C9C9C9"
+        android:textSize="40dp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/TxtUsernameInicioSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:hint="Username"
+        android:textColor="#c9c9c9"
+        android:textColorHint="#C9C9C9" />
+
+    <EditText
+        android:id="@+id/TxtPasswordInicioSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#c9c9c9"
+        android:textColorHint="#c9c9c9" />
+
+    <Button
+        android:id="@+id/BtnInicioSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:backgroundTint="#000000"
+        android:padding="20dp"
+        android:text="Iniciar sesión"
+        android:textColor="#c9c9c9"
+
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/BtnPagRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#252525"
+        android:padding="15dp"
+        android:shadowColor="#00FFFFFF"
+        android:text="No tienes una cuenta? Regístrate"
+        android:textAllCaps="false"
+        android:textColor="#c9c9c9"
+        android:textSize="16dp" />
+
+</LinearLayout>
